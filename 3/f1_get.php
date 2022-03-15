@@ -1,0 +1,11 @@
+<?php header('Content-Type: text/html; charset=windows-1251'); ?>
+
+<h1>Гусева Д. А.</h1>
+
+<?php
+echo ("Здравствуйте, " . $_GET["username"]);
+echo ("<hr>");
+echo ("Значение скрытого поля hideField равно " .
+$_GET["hideField"]);
+?>
+<br><br><a href='.'>Назад</a><br>
