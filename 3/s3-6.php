@@ -1,3 +1,5 @@
+<h1>Ãףסוגא Ä. À.</h1><br>
+
 <?php
   header('Content-Type: text/html; charset=windows-1251');
 
