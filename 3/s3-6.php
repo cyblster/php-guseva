@@ -59,3 +59,5 @@
     echo $text[count($text) - 1];
   }
 ?>
+
+<br><br><a href='.'>Назад</a><br>
