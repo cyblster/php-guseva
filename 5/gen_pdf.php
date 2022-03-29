@@ -1,4 +1,9 @@
 <?php
+session_start();
+if(!$_SESSION["rule"]) header("Location: .");
+?>
+
+<?php
   $conn = mysqli_connect("eu-cdbr-west-02.cleardb.net","babfe8b736370f","6e610c35", "heroku_31e74ecdd4c17a0") or die ("Невозможно подключиться к серверу");
   mysqli_query($conn, "SET NAMES cp1251");
 
